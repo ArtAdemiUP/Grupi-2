@@ -13,13 +13,13 @@ void shtoShpenzim(vector<Shpenzim>& shpenzimet) {
     
     cout << "Shkruaj përshkrimin: ";
     cin.ignore();
-    getline(std::cin, shpenzimiIri.pershkrimi);
+    getline(cin, shpenzimiIri.pershkrimi);
     
     shpenzimet.push_back(shpenzimiIri);
     cout << "Shpenzimi u shtua me sukses!\n";
 }
 
-void shikoShpenzimet(const std::vector<Shpenzim>& shpenzimet) {
+void shikoShpenzimet(const vector<Shpenzim>& shpenzimet) {
     if (shpenzimet.empty()) {
         cout << "Nuk ka shpenzime për të shikuar.\n";
         return;
@@ -32,7 +32,7 @@ void shikoShpenzimet(const std::vector<Shpenzim>& shpenzimet) {
         cout << i << "  $"
              << shpenzimet[i].shuma << "  "
              << shpenzimet[i].kategoria << "  "
-             << shpenzimet[i].pershkrimi << std::endl;
+             << shpenzimet[i].pershkrimi << endl;
     }
 }
 
@@ -56,13 +56,13 @@ void llogaritNgaKategoria(const vector<Shpenzim>& shpenzimet, const string& kate
     }
     
     if (gjetur) {
-        cout << "Totali i shpenzimeve në kategorinë " << kategoria << ": $" << totaliKategorise << std::endl;
+        cout << "Totali i shpenzimeve në kategorinë " << kategoria << ": $" << totaliKategorise << endl;
     } else {
         cout << "Nuk ka shpenzime në kategorinë " << kategoria << ".\n";
     }
 }
 
-void fshiShpenzim(std::vector<Shpenzim>& shpenzimet, int id) {
+void fshiShpenzim(vector<Shpenzim>& shpenzimet, int id) {
     if (id < 0 || id >= shpenzimet.size()) {
         cout<< "ID e pavlefshme. Asnjë shpenzim nuk u fshi.\n";
         return;
