@@ -80,6 +80,14 @@ Tregon shumën totale të shpenzimeve.
 
 Zgjidhni një ID për të fshirë shpenzimin e caktuar.
 
+Pamje vizuele e programit:
+
+![image](https://github.com/user-attachments/assets/5dd353c1-229a-4cab-8001-2e3d3fa5fd23)
+![image](https://github.com/user-attachments/assets/ad63a3e7-6a48-49d6-aafd-af1dbeb0eef0)
+![image](https://github.com/user-attachments/assets/1790d0a6-358c-4105-861d-45c49cd35ff2)
+![image](https://github.com/user-attachments/assets/e3c09b8c-8288-420b-81b7-0d5c20ca7656)
+![image](https://github.com/user-attachments/assets/13a73fcb-c338-4156-b00d-7f40db51759d)
+
 ---
 
 ## Bashkëpunëtorët
